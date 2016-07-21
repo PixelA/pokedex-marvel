@@ -54,6 +54,9 @@
 		A9E3890B1D413AB100DFF020 /* pokedex-marvel */ = {
 			isa = PBXGroup;
 			children = (
+				A9E389201D413CFB00DFF020 /* Model */,
+				A9E3891F1D413CEB00DFF020 /* View */,
+				A9E3891E1D413CDE00DFF020 /* Controller */,
 				A9E3890C1D413AB100DFF020 /* AppDelegate.swift */,
 				A9E3890E1D413AB100DFF020 /* ViewController.swift */,
 				A9E389101D413AB100DFF020 /* Main.storyboard */,
@@ -62,6 +65,27 @@
 				A9E389181D413AB100DFF020 /* Info.plist */,
 			);
 			path = "pokedex-marvel";
+			sourceTree = "<group>";
+		};
+		A9E3891E1D413CDE00DFF020 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A9E3891F1D413CEB00DFF020 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A9E389201D413CFB00DFF020 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
