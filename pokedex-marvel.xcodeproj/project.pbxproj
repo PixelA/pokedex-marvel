@@ -14,6 +14,7 @@
 		A9E389171D413AB100DFF020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E389151D413AB100DFF020 /* LaunchScreen.storyboard */; };
 		A9E389221D4151DA00DFF020 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = A9E389211D4151DA00DFF020 /* pokemon.csv */; };
 		A9E389241D41554900DFF020 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E389231D41554900DFF020 /* Pokemon.swift */; };
+		A9E389261D415B3800DFF020 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9E389251D415B3800DFF020 /* music.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A9E389181D413AB100DFF020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9E389211D4151DA00DFF020 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		A9E389231D41554900DFF020 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		A9E389251D415B3800DFF020 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				A9E389211D4151DA00DFF020 /* pokemon.csv */,
 				A9E3890E1D413AB100DFF020 /* ViewController.swift */,
 				A9E389101D413AB100DFF020 /* Main.storyboard */,
+				A9E389251D415B3800DFF020 /* music.mp3 */,
 				A9E389131D413AB100DFF020 /* Assets.xcassets */,
 				A9E389151D413AB100DFF020 /* LaunchScreen.storyboard */,
 				A9E389181D413AB100DFF020 /* Info.plist */,
@@ -152,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9E389261D415B3800DFF020 /* music.mp3 in Resources */,
 				A9E389171D413AB100DFF020 /* LaunchScreen.storyboard in Resources */,
 				A9E389141D413AB100DFF020 /* Assets.xcassets in Resources */,
 				A9E389221D4151DA00DFF020 /* pokemon.csv in Resources */,
