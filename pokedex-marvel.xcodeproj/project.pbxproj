@@ -15,6 +15,7 @@
 		A9E389221D4151DA00DFF020 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = A9E389211D4151DA00DFF020 /* pokemon.csv */; };
 		A9E389241D41554900DFF020 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E389231D41554900DFF020 /* Pokemon.swift */; };
 		A9E389261D415B3800DFF020 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9E389251D415B3800DFF020 /* music.mp3 */; };
+		A9E6732A1D42C24C00E1BE4E /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E673291D42C24C00E1BE4E /* PokeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A9E389211D4151DA00DFF020 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		A9E389231D41554900DFF020 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		A9E389251D415B3800DFF020 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		A9E673291D42C24C00E1BE4E /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		A9E3891F1D413CEB00DFF020 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A9E673291D42C24C00E1BE4E /* PokeCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9E6732A1D42C24C00E1BE4E /* PokeCell.swift in Sources */,
 				A9E3890F1D413AB100DFF020 /* ViewController.swift in Sources */,
 				A9E3890D1D413AB100DFF020 /* AppDelegate.swift in Sources */,
 				A9E389241D41554900DFF020 /* Pokemon.swift in Sources */,
@@ -324,6 +328,7 @@
 				A9E3891D1D413AB100DFF020 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
