@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A98B1AB51D58D71300E1DA4D /* pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A98B1AB41D58D71300E1DA4D /* pokemon.ttf */; };
 		A9D568641D4935180013DE81 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D568631D4935180013DE81 /* csv.swift */; };
 		A9E3890D1D413AB100DFF020 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E3890C1D413AB100DFF020 /* AppDelegate.swift */; };
 		A9E3890F1D413AB100DFF020 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E3890E1D413AB100DFF020 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A98B1AB41D58D71300E1DA4D /* pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pokemon.ttf; sourceTree = "<group>"; };
 		A9D568631D4935180013DE81 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		A9E389091D413AB100DFF020 /* pokedex-marvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pokedex-marvel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E3890C1D413AB100DFF020 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				A9E389211D4151DA00DFF020 /* pokemon.csv */,
+				A98B1AB41D58D71300E1DA4D /* pokemon.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				A9E389171D413AB100DFF020 /* LaunchScreen.storyboard in Resources */,
 				A9E389141D413AB100DFF020 /* Assets.xcassets in Resources */,
 				A9E389221D4151DA00DFF020 /* pokemon.csv in Resources */,
+				A98B1AB51D58D71300E1DA4D /* pokemon.ttf in Resources */,
 				A9E389121D413AB100DFF020 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

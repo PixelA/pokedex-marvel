@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
     
@@ -14,6 +15,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     @IBOutlet weak var collection: UICollectionView!
     
     var pokemon = [Pokemon]()
+    var musicPlayer: AVAudioPlayer!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -72,6 +74,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForIndexPath indexPath: NSIndexPath) -> CGSize {
         
         return CGSizeMake(105, 105)
+    }
+    @IBAction func musicBtnPressed(sender: AnyObject) {
     }
  
 }

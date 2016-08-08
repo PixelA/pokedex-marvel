@@ -4,6 +4,11 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="pokemon.ttf">
+            <string>PokemonSolidNormal</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -19,12 +24,91 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hQX-3K-Iln">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pokedex" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NaY-Kb-Vyo">
+                                        <rect key="frame" x="244" y="17" width="112" height="26"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="0PW-h4-cWM"/>
+                                            <constraint firstAttribute="width" constant="112" id="2UL-q9-wxf"/>
+                                            <constraint firstAttribute="width" constant="112" id="77g-9j-ISM"/>
+                                            <constraint firstAttribute="height" constant="26" id="Nlv-EO-pPX"/>
+                                            <constraint firstAttribute="height" constant="32" id="Yeb-N2-OCm"/>
+                                            <constraint firstAttribute="width" constant="112" id="j2J-6R-OLz"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="PokemonSolidNormal" family="Pokemon Solid" pointSize="27"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="0PW-h4-cWM"/>
+                                                <exclude reference="77g-9j-ISM"/>
+                                                <exclude reference="Yeb-N2-OCm"/>
+                                                <exclude reference="j2J-6R-OLz"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5tO-j0-jdN">
+                                        <rect key="frame" x="560" y="12" width="32" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="1ny-Nj-vYy"/>
+                                            <constraint firstAttribute="height" constant="32" id="1sb-Gw-AOs"/>
+                                            <constraint firstAttribute="width" constant="32" id="7mh-dE-cUl"/>
+                                            <constraint firstAttribute="width" constant="35" id="HQq-6X-J7T"/>
+                                            <constraint firstAttribute="width" constant="40" id="UUL-GN-sWl"/>
+                                            <constraint firstAttribute="height" constant="32" id="zNR-3b-tz4"/>
+                                        </constraints>
+                                        <state key="normal" image="music"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="1ny-Nj-vYy"/>
+                                                <exclude reference="1sb-Gw-AOs"/>
+                                                <exclude reference="HQq-6X-J7T"/>
+                                                <exclude reference="UUL-GN-sWl"/>
+                                            </mask>
+                                        </variation>
+                                        <connections>
+                                            <action selector="musicBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Nc-ZF-eXC"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" red="1" green="0.34509803921568627" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="5tO-j0-jdN" firstAttribute="centerX" secondItem="hQX-3K-Iln" secondAttribute="centerX" id="7jw-5p-MX9"/>
+                                    <constraint firstAttribute="bottom" secondItem="NaY-Kb-Vyo" secondAttribute="bottom" constant="8" id="9oK-QV-jAB"/>
+                                    <constraint firstItem="NaY-Kb-Vyo" firstAttribute="centerX" secondItem="hQX-3K-Iln" secondAttribute="centerX" id="APB-Hg-kRQ"/>
+                                    <constraint firstItem="5tO-j0-jdN" firstAttribute="top" secondItem="hQX-3K-Iln" secondAttribute="top" constant="12" id="B0h-fd-XGl"/>
+                                    <constraint firstItem="NaY-Kb-Vyo" firstAttribute="centerY" secondItem="hQX-3K-Iln" secondAttribute="centerY" id="C2t-ab-4S7"/>
+                                    <constraint firstItem="NaY-Kb-Vyo" firstAttribute="centerY" secondItem="hQX-3K-Iln" secondAttribute="centerY" id="E27-ff-cVo"/>
+                                    <constraint firstItem="5tO-j0-jdN" firstAttribute="top" secondItem="hQX-3K-Iln" secondAttribute="top" constant="11" id="HkI-B6-x06"/>
+                                    <constraint firstAttribute="trailing" secondItem="5tO-j0-jdN" secondAttribute="trailing" constant="46" id="IZW-dm-bx9"/>
                                     <constraint firstAttribute="height" constant="60" id="K6X-gS-Vje"/>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="60" id="LUI-fG-h7d"/>
+                                    <constraint firstAttribute="bottom" secondItem="5tO-j0-jdN" secondAttribute="bottom" constant="17" id="QEu-2H-6zB"/>
+                                    <constraint firstItem="NaY-Kb-Vyo" firstAttribute="centerY" secondItem="hQX-3K-Iln" secondAttribute="centerY" id="XI1-kO-NZ6"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="Yg6-32-RUE"/>
+                                    <constraint firstAttribute="trailing" secondItem="5tO-j0-jdN" secondAttribute="trailing" constant="46" id="aIx-9Q-Cdq"/>
+                                    <constraint firstItem="NaY-Kb-Vyo" firstAttribute="centerX" secondItem="hQX-3K-Iln" secondAttribute="centerX" id="bVn-3c-vKq"/>
+                                    <constraint firstItem="5tO-j0-jdN" firstAttribute="leading" secondItem="NaY-Kb-Vyo" secondAttribute="trailing" constant="163" id="hW2-iw-Y1A"/>
+                                    <constraint firstItem="NaY-Kb-Vyo" firstAttribute="centerX" secondItem="hQX-3K-Iln" secondAttribute="centerX" id="lOQ-RU-72E"/>
+                                    <constraint firstAttribute="trailing" secondItem="5tO-j0-jdN" secondAttribute="trailing" constant="8" id="sPT-Um-shl"/>
+                                    <constraint firstItem="NaY-Kb-Vyo" firstAttribute="centerY" secondItem="hQX-3K-Iln" secondAttribute="centerY" id="tRE-dj-Oad"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="9oK-QV-jAB"/>
+                                        <exclude reference="APB-Hg-kRQ"/>
+                                        <exclude reference="C2t-ab-4S7"/>
+                                        <exclude reference="E27-ff-cVo"/>
+                                        <exclude reference="XI1-kO-NZ6"/>
+                                        <exclude reference="lOQ-RU-72E"/>
+                                        <exclude reference="7jw-5p-MX9"/>
+                                        <exclude reference="HkI-B6-x06"/>
+                                        <exclude reference="IZW-dm-bx9"/>
+                                        <exclude reference="QEu-2H-6zB"/>
+                                        <exclude reference="aIx-9Q-Cdq"/>
+                                        <exclude reference="hW2-iw-Y1A"/>
+                                    </mask>
+                                </variation>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="ogB-iI-rkv">
                                 <rect key="frame" x="0.0" y="104" width="600" height="496"/>
@@ -122,11 +206,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="202" y="128"/>
+            <point key="canvasLocation" x="189" y="162"/>
         </scene>
     </scenes>
     <resources>
         <image name="297" width="120" height="120"/>
         <image name="bg" width="1920" height="1200"/>
+        <image name="music" width="100" height="100"/>
     </resources>
 </document>
