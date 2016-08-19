@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A286a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A294a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -206,11 +206,45 @@
                     <connections>
                         <outlet property="collection" destination="cI8-1C-mEq" id="4FB-4J-bfT"/>
                         <outlet property="searchBar" destination="b7Q-bf-pcz" id="ZkA-L0-u3A"/>
+                        <segue destination="gGV-eV-D3m" kind="show" identifier="PokemonDetailVC" id="407-rk-CYo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="189" y="162"/>
+            <point key="canvasLocation" x="-309" y="162"/>
+        </scene>
+        <!--Pokemon DetailVC-->
+        <scene sceneID="4CS-A5-RMQ">
+            <objects>
+                <viewController id="gGV-eV-D3m" customClass="PokemonDetailVC" customModule="pokedex_marvel" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VPA-FM-sQm"/>
+                        <viewControllerLayoutGuide type="bottom" id="qNe-Lm-u9y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hKJ-EH-MM3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFL-sD-d2m">
+                                <rect key="frame" x="224" y="143" width="187" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="A2w-d7-032"/>
+                                    <constraint firstAttribute="width" constant="187" id="dSi-iB-vg5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.18039215689999999" green="0.52941176469999995" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="nameLbl" destination="JFL-sD-d2m" id="KIO-LS-zls"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eY8-sj-bdO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="444" y="162"/>
         </scene>
     </scenes>
     <resources>
